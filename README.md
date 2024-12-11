@@ -38,7 +38,9 @@ First, you need to install the **Remi** repository, which provides multiple PHP 
 You can enable the PHP modules for versions 7.4, 8.0, and 8.2:
 
 ```bash
-sudo dnf module enable php:remi-8.* -y
+sudo dnf module enable php:remi-7.4 -y
+sudo dnf module enable php:remi-8.0 -y
+sudo dnf module enable php:remi-8.2 -y
 ```
 
 This will ensure that the PHP modules for all versions are available for installation.
